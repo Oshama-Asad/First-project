@@ -1,0 +1,70 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body {
+            height: 100%;
+            width: 100%;
+        }
+        #content-body {
+            height: 100%;
+            width: 100%;
+            background-image: linear-gradient(to right top, #c865e8, #5c93ff, #00b0ff, #00c1e9, #00cbc0, #00c9b4, #00c7a7, #00c598, #00bbb0, #00aec1, #00a0c7, #2a90c3);
+            font-family: 'Open Sans', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content-box {
+            width: 300px;
+            background-color: aliceblue;
+            border-radius: 10px;
+        }
+        .content-box h3 {
+            text-align: center;
+            line-height: 60px;
+            background-color: aquamarine;
+            border-radius: 10px 10px 0 0;
+        }
+        form {
+            padding-right: 30px;
+        }
+        .content {
+            height: 45px;
+            margin: 20px 0 30px 30px;
+            position: relative;
+        }
+        .content input {
+            height: 100%;
+            width: 100%;
+            padding-left: 45px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        .content i {
+            position: absolute;
+            height: 100%;
+            width: 40px;
+            background-color: aquamarine;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid black;
+            border-radius: 5px 0 0 5px;
+
+        }
+        #f-pass a {
+            font-size: 13px;
+            font-weight: 500;
+            position: absolute;
+            right: 0;
+        }
+        #button {
+            padding-right: 45px;
+            font-size: 18px;
+            background-color: aquamarine;
+        }
